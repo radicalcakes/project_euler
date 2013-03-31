@@ -21,9 +21,7 @@ def total_calc():
 	t = sum(calculate_sum(len(tens), tens))
 	o = sum(calculate_sum(len(ones), ones))
 	teen = sum(calculate_sum(len(teens), teens)) * 10
-	o2 = o * 99
-	to = t * 99
-	s += to
+	o2 = (o + t) * 99
 	s += teen
 	s += o * 90
 	s += o2
