@@ -10,7 +10,7 @@ def find_sum(triangle):
 
 
 if __name__ == "__main__":
-    text = open("triangle_18.txt", "r")
+    text = open("triangle_67.txt", "r")
     triangle = []
     for line in text:
         triangle.append([int(num) for num in line.split()])
