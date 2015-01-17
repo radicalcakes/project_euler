@@ -53,3 +53,8 @@ def fibonacci(n):
 #factorization
 def factors(n):    
     return set(reduce(list.__add__, ([i, n/i] for i in range(1, int(sqrt(n)) + 1) if n % i == 0)))
+
+#combinatorics rectangle
+#finds all rectangles in n*m grid
+def comb_rect(n,m):
+    return (n * (n+1) * m * (m+1))/4
